@@ -11,7 +11,7 @@ A modern **email signature generator** that supports multiple companies.
 
 ## 🌐 Live Demo
 
-🔗 [Use the generator here](https://mattou5.github.io/Projet-Signagen/)
+🔗 [Use the generator here](https://scanou.github.io/Signagen/)
 
 ## 📁 Project Structure
 
