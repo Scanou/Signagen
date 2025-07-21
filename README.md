@@ -18,10 +18,6 @@ A modern **email signature generator** that supports multiple companies.
 ### Signature Preview
 
 <img width="590" alt="Signagen preview" src="https://github.com/user-attachments/assets/24d2dd38-565c-4f48-ae4d-9d246a10bcfe" />
----
-
-## 📁 Project Structure
-
 
 ## 📁 Project Structure
 
