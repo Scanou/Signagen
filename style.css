@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('https://images.unsplash.com/photo-1531746790731-6c087fecd65a?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+.container {
+  max-width: 700px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+}
+
+input, select {
+  padding: 0.75rem;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.75rem;
+  background: #ffffff;
+  color: #1e3a8a;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background: #dbeafe;
+}
+
+#result {
+  margin-top: 2rem;
+  text-align: center;
+  background: white;
+  color: black;
+  padding: 1rem;
+  border-radius: 8px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#signaturePreview table {
+  font-family: Arial, sans-serif;
+}
+
+#signaturePreview img {
+  height: 50px;
+}

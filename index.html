@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Générateur de Signature</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Générateur de Signature</h1>
+
+    <form id="signatureForm">
+      <label for="entrepriseSelect">Entreprise :</label>
+      <select id="entrepriseSelect" name="entreprise"></select>
+
+      <input type="text" name="prenom" placeholder="Prénom" required />
+      <input type="text" name="nom" placeholder="Nom" required />
+      <input type="text" name="poste" placeholder="Poste" />
+      <input type="tel" name="tel" placeholder="Téléphone" />
+      <input type="email" name="email" placeholder="Email" required />
+
+      <button type="submit">Générer la signature</button>
+    </form>
+
+    <div id="result" style="display:none;">
+      <h2>Aperçu :</h2>
+      <div id="signaturePreview" contenteditable="false"></div>
+      <button id="copyBtn">Copier la signature</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
