@@ -9,10 +9,6 @@ A modern **email signature generator** that supports multiple companies.
 - Instantly preview your HTML signature
 - Copy HTML code to paste into your email client
 
-## 🌐 Live Demo
-
-🔗 [Use the generator here](https://scanou.github.io/Signagen/)
-
 ## 📁 Project Structure
 
 - `index.html` – Main user interface
@@ -22,5 +18,5 @@ A modern **email signature generator** that supports multiple companies.
 ## 💻 How to Use Locally
 
 ```bash
-git clone https://github.com/mattou5/Projet-Signagen.git
+git clone https://github.com/Scanou/Signagen.git
 cd Projet-Signagen
